@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.cache/
+.scratch/
+artifacts/
+runtimes/
+.vs/
+*.user
+.superpowers/

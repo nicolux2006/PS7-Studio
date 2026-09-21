@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="File" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="Debug" xml:space="preserve">
+    <value>Debuggen</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Neues Skript</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Öffnen…</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Speichern unter…</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>Alle speichern</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="CloseAll" xml:space="preserve">
+    <value>Alle schließen</value>
+  </data>
+  <data name="Recent" xml:space="preserve">
+    <value>Zuletzt verwendet</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Alles auswählen</value>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Suchen…</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Ersetzen…</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Weitersuchen</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Rückwärts suchen</value>
+  </data>
+  <data name="GoTo" xml:space="preserve">
+    <value>Gehe zu Zeile…</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Auskommentieren</value>
+  </data>
+  <data name="Uncomment" xml:space="preserve">
+    <value>Kommentar entfernen</value>
+  </data>
+  <data name="Indent" xml:space="preserve">
+    <value>Einrücken</value>
+  </data>
+  <data name="Outdent" xml:space="preserve">
+    <value>Ausrücken</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Skript ausführen</value>
+  </data>
+  <data name="RunSelection" xml:space="preserve">
+    <value>Auswahl ausführen</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stoppen</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Fortsetzen</value>
+  </data>
+  <data name="StepInto" xml:space="preserve">
+    <value>Einzelschritt</value>
+  </data>
+  <data name="StepOver" xml:space="preserve">
+    <value>Prozedurschritt</value>
+  </data>
+  <data name="StepOut" xml:space="preserve">
+    <value>Prozedur verlassen</value>
+  </data>
+  <data name="ToggleBreakpoint" xml:space="preserve">
+    <value>Haltepunkt umschalten</value>
+  </data>
+  <data name="ClearBreakpoints" xml:space="preserve">
+    <value>Alle Haltepunkte entfernen</value>
+  </data>
+  <data name="Console" xml:space="preserve">
+    <value>Konsole</value>
+  </data>
+  <data name="Commands" xml:space="preserve">
+    <value>Befehle</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variablen</value>
+  </data>
+  <data name="Breakpoints" xml:space="preserve">
+    <value>Haltepunkte</value>
+  </data>
+  <data name="CallStack" xml:space="preserve">
+    <value>Aufrufliste</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Probleme</value>
+  </data>
+  <data name="Inspector" xml:space="preserve">
+    <value>Inspektor</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Ausgabe löschen</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Sitzung neu starten</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="Snippets" xml:space="preserve">
+    <value>Codeausschnitte</value>
+  </data>
+  <data name="Modules" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Über PS7 Studio</value>
+  </data>
+  <data name="Shortcuts" xml:space="preserve">
+    <value>Tastenkombinationen</value>
+  </data>
+  <data name="PowerShellHelp" xml:space="preserve">
+    <value>PowerShell-Hilfe</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Bereit</value>
+  </data>
+  <data name="Starting" xml:space="preserve">
+    <value>PowerShell wird gestartet…</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Bereit</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Wird ausgeführt</value>
+  </data>
+  <data name="AwaitingInput" xml:space="preserve">
+    <value>Eingabe erforderlich</value>
+  </data>
+  <data name="DebugPaused" xml:space="preserve">
+    <value>An Haltepunkt angehalten</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Sitzung getrennt</value>
+  </data>
+  <data name="Faulted" xml:space="preserve">
+    <value>Sitzungsfehler</value>
+  </data>
+  <data name="SearchCommands" xml:space="preserve">
+    <value>Befehle oder Module suchen</value>
+  </data>
+  <data name="CommandInput" xml:space="preserve">
+    <value>PowerShell-Befehl eingeben · Eingabe zum Ausführen · Umschalt+Eingabe für neue Zeile</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Unbenannt</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>PowerShell-Skript</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ein Fehler ist aufgetreten</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Verwerfen</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Änderungen speichern?</value>
+  </data>
+  <data name="Unsaved" xml:space="preserve">
+    <value>Dieses Dokument enthält ungespeicherte Änderungen.</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Hell</value>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Dunkel</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Editor-Schriftart</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="TabWidth" xml:space="preserve">
+    <value>Tabulatorbreite</value>
+  </data>
+  <data name="Spaces" xml:space="preserve">
+    <value>Leerzeichen statt Tabulatoren</value>
+  </data>
+  <data name="Wrap" xml:space="preserve">
+    <value>Zeilenumbruch</value>
+  </data>
+  <data name="LineNumbers" xml:space="preserve">
+    <value>Zeilennummern</value>
+  </data>
+  <data name="RestoreSession" xml:space="preserve">
+    <value>Vorherige Dokumente wiederherstellen</value>
+  </data>
+  <data name="Profiles" xml:space="preserve">
+    <value>PowerShell-Profile beim Sitzungsstart laden</value>
+  </data>
+  <data name="StartupDirectory" xml:space="preserve">
+    <value>Startverzeichnis</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Übernehmen</value>
+  </data>
+  <data name="RestartLanguage" xml:space="preserve">
+    <value>Die Sprachänderung wird nach einem Neustart von PS7 Studio wirksam.</value>
+  </data>
+  <data name="Recovery" xml:space="preserve">
+    <value>Ungespeicherte Arbeit wiederherstellen</value>
+  </data>
+  <data name="RecoveryText" xml:space="preserve">
+    <value>Ungespeicherte Dokumente aus einer vorherigen Sitzung wurden gefunden. Jetzt wiederherstellen?</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Wiederherstellen</value>
+  </data>
+  <data name="ExternalChange" xml:space="preserve">
+    <value>Datei auf dem Datenträger geändert</value>
+  </data>
+  <data name="ExternalText" xml:space="preserve">
+    <value>Diese Datei wurde außerhalb von PS7 Studio geändert. Neu laden? Der aktuelle Inhalt wird ersetzt.</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Neu laden</value>
+  </data>
+  <data name="Keep" xml:space="preserve">
+    <value>Editorinhalt behalten</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>In Editor einfügen</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Befehlsdetails</value>
+  </data>
+  <data name="Evaluate" xml:space="preserve">
+    <value>Ausdruck auswerten</value>
+  </data>
+  <data name="Expression" xml:space="preserve">
+    <value>Ausdruck in der angehaltenen Sitzung</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Vergrößern</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Verkleinern</value>
+  </data>
+  <data name="Fullscreen" xml:space="preserve">
+    <value>Vollbild</value>
+  </data>
+  <data name="NoSelection" xml:space="preserve">
+    <value>Wählen Sie einen Befehl aus, um Parameter und Hilfe anzuzeigen.</value>
+  </data>
+  <data name="EngineBusy" xml:space="preserve">
+    <value>Die Sitzung ist beschäftigt. Beenden Sie zuerst den aktuellen Befehl.</value>
+  </data>
+  <data name="ResetWarning" xml:space="preserve">
+    <value>Ein Neustart löscht Variablen, Funktionen und Haltepunkte dieser Sitzung. Dokumente bleiben erhalten.</value>
+  </data>
+  <data name="Development" xml:space="preserve">
+    <value>Entwicklungsversion · Funktionsprüfung läuft</value>
+  </data>
+  <data name="OutputTruncated" xml:space="preserve">
+    <value>Ältere Ausgabe wurde aus dem Verlauf entfernt.</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Zeile</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Spalte</value>
+  </data>
+  <data name="Completion" xml:space="preserve">
+    <value>PowerShell-Vervollständigung</value>
+  </data>
+  <data name="ToggleFold" xml:space="preserve">
+    <value>Faltung umschalten</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Alle erweitern</value>
+  </data>
+  <data name="Whitespace" xml:space="preserve">
+    <value>Leerzeichen</value>
+  </data>
+  <data name="CopyOutput" xml:space="preserve">
+    <value>Ausgabe kopieren</value>
+  </data>
+  <data name="BuildCommand" xml:space="preserve">
+    <value>Befehl erstellen</value>
+  </data>
+  <data name="ResetLayout" xml:space="preserve">
+    <value>Layout zurücksetzen</value>
+  </data>
+  <data name="Session" xml:space="preserve">
+    <value>Sitzung</value>
+  </data>
+  <data name="NewSession" xml:space="preserve">
+    <value>Neue Sitzung</value>
+  </data>
+  <data name="CloseSession" xml:space="preserve">
+    <value>Sitzung schließen</value>
+  </data>
+  <data name="ParameterSet" xml:space="preserve">
+    <value>Parametersatz</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Erforderlich</value>
+  </data>
+  <data name="RemoveBreakpoint" xml:space="preserve">
+    <value>Haltepunkt entfernen</value>
+  </data>
+  <data name="DisableBreakpoint" xml:space="preserve">
+    <value>Haltepunkt deaktivieren</value>
+  </data>
+  <data name="EnableBreakpoint" xml:space="preserve">
+    <value>Haltepunkt aktivieren</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Bedingung</value>
+  </data>
+  <data name="RefreshCommands" xml:space="preserve">
+    <value>Befehle aktualisieren</value>
+  </data>
+  <data name="Hover" xml:space="preserve">
+    <value>QuickInfo</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Signatur</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="StartupCommands" xml:space="preserve">
+    <value>Startbefehle</value>
+  </data>
+  <data name="AutoCompletion" xml:space="preserve">
+    <value>Automatische Vervollständigung</value>
+  </data>
+  <data name="AutoIndent" xml:space="preserve">
+    <value>Automatische Einrückung</value>
+  </data>
+  <data name="NativeTerminal" xml:space="preserve">
+    <value>Natives Terminal</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Keine Ergebnisse</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Erneut versuchen</value>
+  </data>
+  <data name="Busy" xml:space="preserve">
+    <value>Beschäftigt</value>
+  </data>
+  <data name="SessionLost" xml:space="preserve">
+    <value>Sitzung verloren</value>
+  </data>
+  <data name="RecoveryFailed" xml:space="preserve">
+    <value>Wiederherstellung fehlgeschlagen</value>
+  </data>
+  <data name="RecoveryPath" xml:space="preserve">
+    <value>Wiederherstellungspfad</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="OutputSkipped" xml:space="preserve">
+    <value>Ausgabelimit erreicht: {0} Blöcke ausgelassen.</value>
+  </data>
+  <data name="ConditionalBreakpoint" xml:space="preserve">
+    <value>Bedingten Haltepunkt hinzufügen…</value>
+  </data>
+  <data name="AlreadyRunning" xml:space="preserve">
+    <value>PS7 Studio läuft bereits</value>
+  </data>
+  <data name="AlreadyRunningText" xml:space="preserve">
+    <value>Ein anderes Fenster verwendet diesen Arbeitsbereich. Wechseln Sie zu diesem Fenster oder schließen Sie es, bevor Sie PS7 Studio erneut öffnen.</value>
+  </data>
+  <data name="WebViewRuntimeMissing" xml:space="preserve">
+    <value>Die Microsoft Edge WebView2 Runtime fehlt oder konnte nicht gestartet werden. PS7 Studio wird geschlossen. Installieren oder reparieren Sie die Evergreen Runtime und starten Sie PS7 Studio erneut. Danach funktionieren lokale Funktionen auch offline.</value>
+  </data>
+  <data name="WebViewRuntimeDownload" xml:space="preserve">
+    <value>WebView2 Runtime herunterladen</value>
+  </data>
+</root>

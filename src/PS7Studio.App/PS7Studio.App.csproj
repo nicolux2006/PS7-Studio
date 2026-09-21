@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+  <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+  <AssemblyName>PS7Studio</AssemblyName><RootNamespace>PS7Studio.App</RootNamespace>
+  <UseWinUI>true</UseWinUI><WindowsPackageType>None</WindowsPackageType>
+  <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained><SelfContained>true</SelfContained>
+  <RuntimeIdentifier>win-x64</RuntimeIdentifier><PlatformTarget>x64</PlatformTarget>
+  <ApplicationManifest>app.manifest</ApplicationManifest>
+  <ApplicationIcon>Assets/Studio.ico</ApplicationIcon>
+  <PublishTrimmed>false</PublishTrimmed><PublishReadyToRun>false</PublishReadyToRun>
+ </PropertyGroup>
+ <ItemGroup>
+  <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
+  <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.4654" />
+  <ProjectReference Include="../PS7Studio.Core/PS7Studio.Core.csproj" />
+  <ProjectReference Include="../PS7Studio.Localization/PS7Studio.Localization.csproj" />
+  <ProjectReference Include="../PS7Studio.PowerShell/PS7Studio.PowerShell.csproj" ReferenceOutputAssembly="false" GlobalPropertiesToRemove="RuntimeIdentifier;SelfContained;PlatformTarget" />
+  <Content Update="Assets\Studio.ico" CopyToOutputDirectory="PreserveNewest" />
+  <Content Include="Assets\Terminal\**\*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+ </ItemGroup>
+ <Target Name="IncludeUnpackagedXamlResources" AfterTargets="Publish">
+  <ItemGroup><StudioXamlResources Include="$(TargetDir)*.xbf;$(TargetDir)$(AssemblyName).pri" /></ItemGroup>
+  <Copy SourceFiles="@(StudioXamlResources)" DestinationFolder="$(PublishDir)" SkipUnchangedFiles="true" />
+ </Target>
+ <Target Name="IncludePrivatePowerShellInBuild" AfterTargets="Build" Condition="'$(DesignTimeBuild)' != 'true'">
+  <MSBuild Projects="$(MSBuildThisFileDirectory)..\PS7Studio.PowerShell\PS7Studio.PowerShell.csproj" Targets="BundleRuntime" Properties="Configuration=$(Configuration);BundleDirectory=$(TargetDir)" RemoveProperties="RuntimeIdentifier;SelfContained;PlatformTarget" />
+ </Target>
+</Project>

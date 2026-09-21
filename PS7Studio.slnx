@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PS7Studio.App/PS7Studio.App.csproj" />
+    <Project Path="src/PS7Studio.Core/PS7Studio.Core.csproj" />
+    <Project Path="src/PS7Studio.Localization/PS7Studio.Localization.csproj" />
+    <Project Path="src/PS7Studio.PowerShell/PS7Studio.PowerShell.csproj" />
+    <Project Path="src/PS7Studio.Protocol/PS7Studio.Protocol.csproj" />
+    <Project Path="src/PS7Studio.Terminal/PS7Studio.Terminal.csproj" />
+  </Folder>
+</Solution>

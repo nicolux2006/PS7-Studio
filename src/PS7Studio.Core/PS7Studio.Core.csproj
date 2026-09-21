@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+ <ItemGroup><ProjectReference Include="../PS7Studio.Protocol/PS7Studio.Protocol.csproj" /></ItemGroup>
+ <ItemGroup><ProjectReference Include="../PS7Studio.Terminal/PS7Studio.Terminal.csproj" /></ItemGroup>
+ <ItemGroup><PackageReference Include="System.Security.Cryptography.ProtectedData" Version="10.0.12" /></ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <BaseOutputPath Condition="'$(StudioBuildRoot)' != ''">$(StudioBuildRoot)/$(MSBuildProjectName)/bin/</BaseOutputPath>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Version>26.9.0</Version>
+    <AssemblyVersion>26.9.0.0</AssemblyVersion>
+    <FileVersion>26.9.0.0</FileVersion>
+    <Product>PS7 Studio</Product>
+    <Description>Modern PowerShell 7 Integrated Scripting Environment</Description>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+    <NuGetAudit>false</NuGetAudit>
+    <RestoreConfigFile>$(MSBuildThisFileDirectory)NuGet.Config</RestoreConfigFile>
+  </PropertyGroup>
+</Project>

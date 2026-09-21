@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <TargetFramework>net10.0</TargetFramework>
+  <AssemblyName>PS7Studio.PowerShell</AssemblyName>
+  <RootNamespace>PS7Studio.PowerShellRuntime</RootNamespace>
+    <PowerShellRuntimeDirectory>$(MSBuildThisFileDirectory)..\..\runtimes\powershell</PowerShellRuntimeDirectory>
+    <StudioRuntimeDirectory>$(MSBuildThisFileDirectory)..\..\runtimes</StudioRuntimeDirectory>
+ </PropertyGroup>
+ <Target Name="BundleRuntime" DependsOnTargets="Build">
+  <Error Condition="'$(BundleDirectory)' == ''" Text="BundleDirectory must name the complete application output directory." />
+  <Error Condition="!Exists('$(PowerShellRuntimeDirectory)\pwsh.exe')" Text="Private PowerShell runtime missing. Run acquire-runtime.ps1 before building." />
+  <Error Condition="!Exists('$(StudioRuntimeDirectory)\editorservices\PowerShellEditorServices\Start-EditorServices.ps1')" Text="Terminal runtime missing. Run acquire-terminal-runtime.ps1 before building." />
+  <ItemGroup>
+   <PrivatePowerShellFiles Include="$(PowerShellRuntimeDirectory)\**\*" />
+   <EditorServicesFiles Include="$(StudioRuntimeDirectory)\editorservices\**\*" Exclude="$(StudioRuntimeDirectory)\editorservices\PSScriptAnalyzer\**\*" />
+  </ItemGroup>
+  <Copy SourceFiles="@(PrivatePowerShellFiles)" DestinationFiles="@(PrivatePowerShellFiles->'$(BundleDirectory)\runtimes\powershell\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  <Copy SourceFiles="@(EditorServicesFiles)" DestinationFiles="@(EditorServicesFiles->'$(BundleDirectory)\runtimes\editorservices\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+ </Target>
+</Project>
+
